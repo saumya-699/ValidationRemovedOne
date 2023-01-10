@@ -1,0 +1,200 @@
+/*Header*/
+:root{
+    --logo-align: left;
+    --header-height: 85px;
+    --bg-image: url(../images/logo.png);
+    --logo-size: 300px;
+    --header-barW: 800px;
+    --profile-size: 50px;
+}
+@media(max-width: 1300px){
+    :root{
+        --header-barW:  650px;
+    }
+}
+@media(max-width: 1150px){
+    :root{
+        --header-barW:  400px;
+    }
+}
+@media(max-width: 1050px){
+    :root{
+        --header-barW:  400px;
+    }
+}
+@media(max-width: 1000px){
+    :root{
+        --header-barW:  250px;
+    }
+}
+@media(max-width: 750px){
+    :root{
+        --profile-size: 0px;
+        --header-barW: 120px;
+        --header-height: 100px;
+    }
+}
+
+.header{
+    width: 100%;
+    height: var(--header-height ,85px);
+    background-color: #E1F4FC;
+    padding: 8px;
+    margin: -8px;
+    float: center;
+}
+
+
+.line{
+    border-color: #ff957a;
+    margin: -8px;
+}
+ul.menu {
+	list-style-type: none;
+	margin: -8px;
+	padding: 0;
+	background-color: #0098da;
+	overflow: hidden;
+}
+li.menu {
+	float: left;
+}
+li.menu a {
+	display: block;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+	text-align: center;
+	padding: 10px 25px;
+	text-decoration: none;
+}
+li.menu a:hover {
+    background-color: #afdefa;
+}
+
+
+/* footer */
+/*Header*/
+:root{
+    --logo-align: left;
+    --header-height: 85px;
+    --bg-image: url(../images/logo.png);
+    --logo-size: 300px;
+    --header-barW: 800px;
+    --profile-size: 50px;
+}
+@media(max-width: 1300px){
+    :root{
+        --header-barW:  650px;
+    }
+}
+@media(max-width: 1150px){
+    :root{
+        --header-barW:  400px;
+    }
+}
+@media(max-width: 1050px){
+    :root{
+        --header-barW:  400px;
+    }
+}
+@media(max-width: 1000px){
+    :root{
+        --header-barW:  250px;
+    }
+}
+@media(max-width: 750px){
+    :root{
+        --profile-size: 0px;
+        --header-barW: 120px;
+        --header-height: 100px;
+    }
+}
+
+.header{
+    width: 100%;
+    height: var(--header-height ,85px);
+    background-color: #E1F4FC;
+    padding: 8px;
+    margin: -8px;
+    float: center;
+}
+
+
+
+ul.menu {
+	list-style-type: none;
+	margin: -8px;
+	padding: 0;
+	background-color: #0098da;
+	overflow: hidden;
+}
+li.menu {
+	float: left;
+}
+li.menu a {
+	display: block;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+	text-align: center;
+	padding: 10px 25px;
+	text-decoration: none;
+}
+li.menu a:hover {
+    background-color: #afdefa;
+}
+/*header*/
+
+
+/* footer */
+.footerDetails {
+    padding: 10px 80px 0px 0px;
+}
+.footer {
+    position: relative;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: #E1F4FC;
+    padding: 8px;
+    margin: 0px -8px;
+    font-family: Florence, cursive;
+}
+
+.footerLinks {
+    text-decoration: none;
+    color: #000000;
+}
+.footerLinks:hover {
+    color: #0b006d;
+}
+
+.footerDetails {
+    padding: 10px 80px 0px 0px;
+}
+.footer {
+    position: relative;
+    bottom: 0px;
+    height: 250px;
+    width: 100%;
+    background-color: #E1F4FC;
+    padding: 8px;
+    margin: 0px -8px;
+    font-family: Florence, cursive;
+}
+
+div.paymentMethods img {
+    margin: 0px 5px;
+}
+.footerLinks {
+    text-decoration: none;
+    color: #000000;
+}
+.footerLinks:hover {
+    color: #0b006d;
+}
+
+
