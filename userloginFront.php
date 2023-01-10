@@ -18,7 +18,7 @@ session_start();
            .midiv{
 
                      background-color:black;
-                     opacity:0.776;
+                     opacity:0.775;
                   margin-top:-20px;
                     margin-left:500px;
                      margin-right:500px;
